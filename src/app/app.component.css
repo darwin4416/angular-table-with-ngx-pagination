@@ -1,0 +1,36 @@
+.table-container {
+    width: 800px;
+}
+
+table {
+    font-size: 18px;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 16px 24px;
+    text-align: left;
+}
+
+td {
+    padding: 8px 24px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+thead tr {
+    background-color: #be6827;
+    color: #fff;
+}
+
+thead th {
+    width: 25%;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f8f9fa;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e9ecef;
+}
